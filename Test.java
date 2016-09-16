@@ -17,7 +17,7 @@ public class Test{
   public static int kirby(int x){
     if(x == 0){
       return x + 1000;
-    }else{
+    }else if(x % 2 == 0){
       return x * 1000;
     }
   }
